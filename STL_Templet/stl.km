@@ -1,0 +1,746 @@
+{
+    "root": {
+        "data": {
+            "id": "cbeliret5080",
+            "created": 1621160741872,
+            "text": "STL"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cbeliwmnbfk0",
+                    "created": 1621160753230,
+                    "text": "1. Containers",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cbell4r1agw0",
+                            "created": 1621160927638,
+                            "text": "顺序",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbelmj6x6t40",
+                                    "created": 1621161037438,
+                                    "text": "array",
+                                    "layout_right_offset": {
+                                        "x": -1,
+                                        "y": 419
+                                    },
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cbelmmmcm7c0",
+                                    "created": 1621161044901,
+                                    "text": "vecror",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbfe0yamgeg0",
+                                            "created": 1621241158489,
+                                            "text": "3 pointers(iterator)",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbfe0rjfo9s0",
+                                                    "created": 1621241143784,
+                                                    "text": "start"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe1ei2ub40",
+                                                    "created": 1621241193768,
+                                                    "text": "finish"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe1h5zv1c0",
+                                                    "created": 1621241199568,
+                                                    "text": "end_of_srorage"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbfe1sdxb3k0",
+                                            "created": 1621241223992,
+                                            "text": "(realloction)twice of increase"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbfe4y98o5k0",
+                                            "created": 1621241471862,
+                                            "text": "member function"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbfe55i4xrk0",
+                                                    "created": 1621241487638,
+                                                    "text": "begin"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe5ahk6u00",
+                                                    "created": 1621241498487,
+                                                    "text": "end"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe5c4tczc0",
+                                                    "created": 1621241502070,
+                                                    "text": "size"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe5dz3paw0",
+                                                    "created": 1621241506078,
+                                                    "text": "capacity"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe5ih1qjk0",
+                                                    "created": 1621241515870,
+                                                    "text": "empty"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe5ojzrgw0",
+                                                    "created": 1621241529109,
+                                                    "text": "operator[ ]"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe5vfc73s0",
+                                                    "created": 1621241544065,
+                                                    "text": "front"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe690tbgw0",
+                                                    "created": 1621241573661,
+                                                    "text": "back"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfe6b7ogz40",
+                                                    "created": 1621241578430,
+                                                    "text": "push_back"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cbelmrucj6g0",
+                                    "created": 1621161056269,
+                                    "text": "list",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbelpbmjpjc0",
+                                            "created": 1621161256061,
+                                            "text": "自带 sort( )",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cbelmtzd1vc0",
+                                    "created": 1621161060925,
+                                    "text": "forward_list",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cbelmzajnfk0",
+                                    "created": 1621161072485,
+                                    "text": "deque(分段连续)",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbfely86htc0",
+                                            "created": 1621242803989,
+                                            "text": "iterator(class)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbfem5fccaw0",
+                                                    "created": 1621242819659,
+                                                    "text": "cur"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfem84s9eo0",
+                                                    "created": 1621242825551,
+                                                    "text": "first"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfemb25wcw0",
+                                                    "created": 1621242831923,
+                                                    "text": "last"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbfemc8i5ts0",
+                                                    "created": 1621242834483,
+                                                    "text": "node"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbff3xhk5aw0",
+                                            "created": 1621244212934,
+                                            "text": "member function"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbff46i7ozc0",
+                                                    "created": 1621244232565,
+                                                    "text": "insert"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cbff4pbhi6g0",
+                                                            "created": 1621244273517,
+                                                            "text": "离那边近往哪边推"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbff6q5s1uw0",
+                                                    "created": 1621244432077,
+                                                    "text": "operator [ ]"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cbffee9bmn40",
+                                                    "created": 1621245033083,
+                                                    "text": "operator +="
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cbelmexakxc0",
+                            "created": 1621161028149,
+                            "text": "关联(查找快)",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbelvc31rjc0",
+                                    "created": 1621161727244,
+                                    "text": "(基于_RB_tree)",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbelrvd5pwg0",
+                                            "created": 1621161455757,
+                                            "text": "mutimap",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbelsephejs0",
+                                                    "created": 1621161497861,
+                                                    "text": "key :  value",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbelnarh1ts0",
+                                            "created": 1621161097454,
+                                            "text": "multiset",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbelsp1sxj40",
+                                                    "created": 1621161520374,
+                                                    "text": "可重复",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbem16edyrk0",
+                                            "created": 1621162185054,
+                                            "text": "set",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbem1f6pqa80",
+                                                    "created": 1621162204181,
+                                                    "text": "不可重复",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbem18g75c00",
+                                            "created": 1621162189517,
+                                            "text": "map",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbgtwvng5ls0",
+                                                    "created": 1621387536993,
+                                                    "text": "operator [ ]"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cbelw4cne5k0",
+                                    "created": 1621161788774,
+                                    "text": "基于hash_table(hash_xxx)",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbelwesehuo0",
+                                            "created": 1621161811494,
+                                            "text": "unordred_mutiset",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbelwo9qemo0",
+                                            "created": 1621161832133,
+                                            "text": "unordered_mutimap",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbem2usoth40",
+                                            "created": 1621162316525,
+                                            "text": "unordered_set",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbem308s4280",
+                                            "created": 1621162328382,
+                                            "text": "undered_map",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cbeljwd5xtc0",
+                    "created": 1621160831021,
+                    "text": "2. Allocators",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cbfcb7nqzf40",
+                            "created": 1621236320296,
+                            "text": "allocate",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbfcbymgam80",
+                                    "created": 1621236378990,
+                                    "text": ": : allocate",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbfcc50njk80",
+                                            "created": 1621236392910,
+                                            "text": "operator new",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cbfccisx6e80",
+                                                    "created": 1621236422917,
+                                                    "text": "malloc",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cbfcbgu8b3s0",
+                            "created": 1621236340279,
+                            "text": "deallocate",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbfcbr0dwnk0",
+                                    "created": 1621236362419,
+                                    "text": "operator delete",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbfccndnajs0",
+                                            "created": 1621236432877,
+                                            "text": "free",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cbfcix3g7ts0",
+                            "created": 1621236924214,
+                            "text": "__gnu_cxx : : __pool_alloc",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbfckupk45c0",
+                                    "created": 1621237075749,
+                                    "text": "使用16个slist(8到168，8的倍数bit) 不带cookie",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cbeljw9l48o0",
+                    "created": 1621160830806,
+                    "text": "3. Algorithms",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cbk7pxx2t2w0",
+                            "created": 1621731168788,
+                            "text": "形式",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbk7p48afww0",
+                                    "created": 1621731104163,
+                                    "text": "std::Algorithm(Iterator itr1, Iterator itr2, ...){ }"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cbk7o118wp40",
+                                    "created": 1621731018842,
+                                    "text": "template<typename Iterator>"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cbelkc7k12w0",
+                    "created": 1621160865510,
+                    "text": "4. Iterators",
+                    "layout": null,
+                    "layout_mind_offset": {
+                        "x": -444,
+                        "y": -282
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cbfdbexvj880",
+                            "created": 1621239157255,
+                            "text": "smart_pointer 泛化指针",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cbfdblwphns0",
+                            "created": 1621239172422,
+                            "text": "算法提问迭代器回答",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbfdj31iu6o0",
+                                    "created": 1621239758268,
+                                    "text": "iterator_traits(iterator's at least5 associated type)",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cbfdjb241140",
+                                            "created": 1621239775718,
+                                            "text": "iterato_category 迭代器的类型",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbfdkm72jao0",
+                                            "created": 1621239878326,
+                                            "text": "deference_type 两个元素之间的距离用什么type来表现",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbfdjwmblzc0",
+                                            "created": 1621239822652,
+                                            "text": "value_type 指的元素type",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbfdnpgfz6o0",
+                                            "created": 1621240120516,
+                                            "text": "pointer",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cbfdnr9nzw00",
+                                            "created": 1621240124460,
+                                            "text": "reference",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cbfdhldwibc0",
+                            "created": 1621239641470,
+                            "text": "算法和容器的桥梁",
+                            "layout_right_offset": {
+                                "x": 2,
+                                "y": -237
+                            },
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cbelkjhx39k0",
+                    "created": 1621160881374,
+                    "text": "5. Adapters",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cbelknptf340",
+                    "created": 1621160890559,
+                    "text": "6. Functors",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cbelo0zqnkw0",
+                    "created": 1621161154550,
+                    "text": "Container Adapters",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cbelohg2g400",
+                            "created": 1621161190366,
+                            "text": "stack",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cbelopbqy7c0",
+                            "created": 1621161207519,
+                            "text": "queue",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cbfcu46tfgg0",
+                            "created": 1621237801661,
+                            "text": "heap",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cbfcu8w4q3c0",
+                                    "created": 1621237811898,
+                                    "text": "priority_queue",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
