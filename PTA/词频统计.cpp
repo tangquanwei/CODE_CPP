@@ -34,8 +34,6 @@ int main() {
 	char chars[80];
 	int idx = 0;
 	while (ch = getchar()) {
-		if (ch == '#')
-			break;
 		if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z' || ch >= '0' && ch <= '9' || ch == '_') {
 			if (idx < 15) {
 				if (ch >= 'A' && ch <= 'Z')
@@ -53,6 +51,8 @@ int main() {
 			else
 				++(mit->second);
 		}
+		if (ch == '#')//先添加
+			break;
 	}
 	multimap<int, string> mis;
 	for_each(msi.begin(), msi.end(), [&mis](auto& it) {
