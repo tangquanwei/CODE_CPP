@@ -1,1 +1,1 @@
-权威写的code
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Tq021009,./';

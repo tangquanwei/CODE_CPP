@@ -11,12 +11,6 @@ public:
 };
 typedef node* tree;
 
-// A utility function to create a node
-node* newNode(int data) {
-	node* temp = new node(data);
-	return temp;
-}
-
 node* creatNode(tree& root, int data) {
 	if (!root)
 		root = new node(data);
@@ -77,50 +71,61 @@ int isBST(node* node) {
 	return (isBSTUtil(node, INT_MIN, INT_MAX));
 }
 // Returns true if given tree is BST.
-bool isBST_V2(node* root, node* l=NULL, node* r=NULL)
-{
-    // Base condition
-    if (root == NULL)
-        return true;
- 
-    // if left node exist then check it has
-    // correct data or not i.e. left node's data
-    // should be less than root's data
-    if (l != NULL and root->data <= l->data)
-        return false;
- 
-    // if right node exist then check it has
-    // correct data or not i.e. right node's data
-    // should be greater than root's data
-    if (r != NULL and root->data >= r->data)
-        return false;
- 
-    // check recursively for every node.
-    return isBST_V2(root->left, l, root) &&
-           isBST_V2(root->right, root, r);
+bool isBST_V2(node* root, node* l = NULL, node* r = NULL) {
+	// Base condition
+	if (root == NULL)
+		return true;
+
+	// if left node exist then check it has
+	// correct data or not i.e. left node's data
+	// should be less than root's data
+	if (l != NULL and root->data <= l->data)
+		return false;
+
+	// if right node exist then check it has
+	// correct data or not i.e. right node's data
+	// should be greater than root's data
+	if (r != NULL and root->data >= r->data)
+		return false;
+
+	// check recursively for every node.
+	return isBST_V2(root->left, l, root) &&
+		   isBST_V2(root->right, root, r);
 }
-bool isBST_V3(node* root)
-{
-    static node *prev = NULL;
-     
-    // traverse the tree in inorder fashion
-    // and keep track of prev node
-    if (root)
-    {
-        if (!isBST_V3(root->left))
-        return false;
- 
-        // Allows only distinct valued nodes
-        if (prev != NULL &&
-            root->data <= prev->data)
-        return false;
- 
-        prev = root;
- 
-        return isBST_V3(root->right);
-    }
- 
-    return true;
+bool isBST_V3(node* root) {
+	static node* prev = NULL;
+
+	// traverse the tree in inorder fashion
+	// and keep track of prev node
+	if (root) {
+		if (!isBST_V3(root->left))
+			return false;
+
+		// Allows only distinct valued nodes
+		if (prev != NULL &&
+			root->data <= prev->data)
+			return false;
+
+		prev = root;
+
+		return isBST_V3(root->right);
+	}
+
+	return true;
+}
+
+// C function to search a given data in a given BST
+node* search(node* root, int data) {
+	// Base Cases: root is null or data is present at root
+	if (root == NULL || root->data == data)
+		return root;
+
+	// Key is greater than root's data
+	if (root->data < data)
+		return search(root->right, data);
+
+	// Key is smaller than root's data
+	return search(root->left, data);
 }
 /* Driver code*/
 int main() {

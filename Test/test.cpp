@@ -1,15 +1,39 @@
 #include <bits/stdc++.h>
+
 using namespace std;
-int main() {
-	int ratio, index, flag = 0;
-	while (scanf("%d%d", &ratio, &index) != EOF)
-		if (index) {
-			if (flag)
-				printf(" ");
-			flag = 1;
-			printf("%d %d", ratio * index, index - 1);
+struct ListNode {
+	int val;
+	ListNode* next;
+	ListNode() : val(0), next(nullptr) {}
+	ListNode(int x) : val(x), next(nullptr) {}
+	ListNode(int x, ListNode* next) : val(x), next(next) {}
+};
+struct cmp {
+	int operator()(ListNode* a, ListNode* b) {
+		return a->val < b->val;
+	}
+};
+class Solution {
+public:
+	ListNode* mergeKLists(vector<ListNode*>& lists) {
+		ListNode *head = new ListNode(), *p = head;
+		priority_queue<ListNode*, vector<ListNode*>, cmp> pq;
+		for (ListNode* l : lists)
+			pq.push(l);
+		while (!pq.empty()) {
+			ListNode* node = pq.top();
+			pq.pop();
+			p->next = node;
+			p = p->next;
+			if (node->next)
+				pq.push(node->next);
 		}
-	if (!flag)
-		printf("0 0");
+		return head->next;
+	}
+};
+int main() {
+
+
+
 	return 0;
 }

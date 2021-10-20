@@ -17,12 +17,6 @@ public:
 	Node() : height(0) {}
 	Node(int data)
 		: data(data), left(nullptr), right(nullptr), height(1) {}
-	void operator=(Node& n) {
-		this->data = n.data;
-		this->height = n.height;
-		this->left = n.left;
-		this->right = n.right;
-	}
 };
 
 // A utility function to get the
@@ -128,6 +122,7 @@ Node* insert(Node* node, int data) {
 	/* return the (unchanged) node pointer */
 	return node;
 }
+
 Node* minValueNode(Node* node) {
 	while (node->left)
 		node = node->left;
@@ -233,9 +228,23 @@ Node* deleteNode(Node* root, int data) {
 // of every node
 void preOrder(Node* root) {
 	if (root != NULL) {
-		preOrder(root->left);
 		cout << root->data << '(' << root->height << ')' << " ";
+		preOrder(root->left);
 		preOrder(root->right);
+	}
+}
+void inOrder(Node* root) {
+	if (root != NULL) {
+		inOrder(root->left);
+		cout << root->data << '(' << root->height << ')' << " ";
+		inOrder(root->right);
+	}
+}
+void postOrder(Node* root) {
+	if (root != NULL) {
+		postOrder(root->left);
+		cout << root->data << '(' << root->height << ')' << " ";
+		postOrder(root->right);
 	}
 }
 void levelOrder(Node* root) {
