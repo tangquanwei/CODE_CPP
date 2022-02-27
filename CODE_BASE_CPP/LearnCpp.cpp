@@ -25,13 +25,6 @@ int main()
 		cout << "10" << endl;
 	}
 
-
-	for (; musk; musk >>= 1) {
-
-		y = musk & x ? 1 : 0;
-		cout << y;
-	}
-	return 0;
 }
 
 unsigned int RGB(unsigned char r, unsigned char g, unsigned char b, unsigned char alph) {

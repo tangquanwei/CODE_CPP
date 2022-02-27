@@ -7,7 +7,7 @@
         {
             "name": "Debug C++",
             "type": "cppdbg",
-            "request": "launch",
+            "request": "launch",  
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
