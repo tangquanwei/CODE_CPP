@@ -130,7 +130,7 @@ namespace my_tuple {
 	};
 
 	void test01() {
-		my_tuple::tuple<int, float, string,string> t(12, 12.5, "quanwei","tang");
+		my_tuple::tuple<int, float, string, string> t(12, 12.5, "quanwei", "tang");
 		cout << "sizeof(t) = " << sizeof(t) << endl;
 		cout << t.head() << endl;
 		cout << t.tail().head() << endl;
@@ -174,9 +174,9 @@ namespace my_tup {
 }
 
 int main() {
-
-	// int a = 0;
-	// print(1, 2, string("Hello"), "word", 12.5);
+	// using namespace print;
+	int a = 0;
+	print::print(1, 2, string("Hello"), "word", 12.5f);
 
 	// cout << input("请输入名字:") << endl;
 	// my_printf("%s\t%d", "word", 12);
@@ -188,10 +188,10 @@ int main() {
 	// using namespace print_tuple;
 	// cout << make_tuple(1, "Tang", "Quanwei");
 
-	my_tuple::test01();
+	// my_tuple::test01();
 
 
-	my_tup::test01();
+	// my_tup::test01();
 
 
 

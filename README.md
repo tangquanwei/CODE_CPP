@@ -74,3 +74,25 @@ public:
 4. 注释尽量用英文(避免编码问题)
 
 ```
+
+## 生成和调用动态dll库
+
+1. windows生成动态dll库的编译命令如下：
+```bash
+ g++ --share ai.cpp -o ai.dll
+ #或者
+ g++ -shared ai.cpp -o ai.dll
+```
+
+
+2. Linux下生成相对应的文件，后缀一般为so。编译指令与windows下类似，只是必须指定参数-fPIC，即“地址无关代码Position Independent Code”。
+```bash
+g++ --share ai.cpp -fPIC -o ai.so
+#或者
+g++ -shared ai.cpp -fPIC -o ai.so
+```
+3. 调用生成的动态dll库
+执行下面的代码，演示如何调用生成的动态dll库
+```bash
+ g++ ai.dll demo.cpp -o demo.exe
+```
